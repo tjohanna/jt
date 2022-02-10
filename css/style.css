@@ -1,0 +1,339 @@
+html, body{
+    margin: 0%;
+    /* border-color: coral;
+    border-style: solid; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+ /* NAVIGATION -------------------- */
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2px;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: #141313;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* NAVIGATION -------------------- */
+
+
+
+
+/* BANNER --------------------  */
+.site-main .site-banner .site-title h3{
+    padding-top: 25%;
+    font-weight: 500;
+    /* border-color: blue;
+    border-style: solid; */
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+    /* border-color: black;
+    border-style: solid; */
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 2rem;
+    font-weight: bold;
+    /* border-color: purple;
+    border-style: solid; */
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1rem;
+    /* border-color: coral;
+    border-style: dotted; */
+}
+
+.site-main .site-banner .banner-image > img{
+    /* padding: 7rem 0; */
+    width: 60rem;
+    /* border-color: black;
+    border-style: solid; */
+}
+/* BANNER --------------------  */
+
+
+/* ABOUT ME -------------------- */ 
+.site-main .about-me{
+    padding: 8rem 5rem;
+    /* border-color: coral;
+    border-style: dotted; */
+}
+
+.site-main .about-me .about-title h2 > span{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 15px;
+}
+
+.site-main .about-me .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+p.snip{
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+/* ABOUT ME -------------------- */ 
+
+
+
+/* BUTTONS -------------------- */ 
+.title-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 72px;    
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.button{
+    padding: .8rem 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+/* primary= hire me button */
+.button.primary-button{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: 0px 10px 30px rgba(118,85,225,0.3);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 40px;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    z-index: 999;
+    transition: background 1s ease;
+}
+/* BUTTONS -------------------- */ 
+
+
+/* PROJECTS -------------------- */ 
+.site-main .projects-sec{
+    padding: 7rem 2rem;
+    /* border-color: coral;
+    border-style: solid; */
+    /* box-shadow: 0px 15px 10px -15px #e6e6e6; */
+}
+
+.site-main .projects-sec .project-titles {
+    padding: 0 14rem;
+    /* border-color: coral;
+    border-style: dotted; */
+}
+
+.site-main .projects-sec .project-titles h1{
+    font-size: 37px;
+    /* border-color: coral;
+    border-style: solid; */
+}
+
+.site-main > .projects-sec .projects{
+    background: rgba(248, 252, 253, 0.973);
+    /* padding: 2rem 0; */
+    width: 14rem;
+    /* margin: 5rem .5rem; */
+    transition: box-shadow .7s ease;
+    /* border-color: blue;
+    border-style: solid; */
+}
+
+.site-main > .projects-sec .projects:hover{
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    /* border-color: red;
+    border-style: solid; */
+}
+/* PROJECTS -------------------- */ 
+
+
+/* FOOTER -------------------- */ 
+footer.footer-area{
+    /* padding: 4rem 0; */
+    padding-bottom: 20px;
+    padding-top: 15px;
+
+    background-color: #FAFAFA;
+    /* background-color: #F9FEFF; */
+    /* border-color: coral;
+    border-style: solid;   */
+
+}
+
+footer.footer-area .social h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* border-color: yellow;
+    border-style: solid;   */
+    
+}
+
+/* FOOTER -------------------- */ 
+
+
+/* MEDIA RESPONSIVE -------------------- */ 
+
+/* is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main,
+    .site-main p, h4,
+    .site-main .projects-sec{
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main > .projects-sec .projects{
+        width: 13rem;
+    }
+
+}
+
+
+.contact {
+ font-family: 'Roboto', sans-serif;
+
+}
+
+/* is equal to 340px or less than */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-me .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .project-area .button-group button{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .site-main .about-me .about-title p{
+        padding: 0%;
+    }
+}
+
+/* is equal to 1910px or less than */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .projects-sec .project-titles,
+    .site-main .about-me{
+        padding: 3% 4%;
+    }
+
+
+}
